@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+ckpt/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+outputs/
+!outputs/.gitkeep
+*.pt
+*.pth
+.DS_Store
+.env
+development/
