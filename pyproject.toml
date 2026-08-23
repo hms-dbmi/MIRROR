@@ -1,7 +1,7 @@
 [project]
 name = "mirror"
 version = "0.1.0"
-description = "MIRROR: Zero-shot prediction of spatial immune profiles from routine pathology slides using a vision–language model"
+description = "MIRROR: A Vision–Language Model for Virtual Spatial Immune Profiling from Routine Histopathology"
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
