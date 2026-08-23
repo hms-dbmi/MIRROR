@@ -59,8 +59,8 @@ def main() -> None:
 
     logit_scale = mirror.logit_scale.exp().item()
     for biomarker in biomarkers:
-        biomarker_embeddings = mirror.encode_biomarker(biomarker)
-        logits = image_embeddings @ biomarker_embeddings.cpu()
+        biomarker_embeddings = mirror.encode_biomarker(biomarker).to(device)
+        logits = image_embeddings @ biomarker_embeddings
         pred_df[biomarker] = (
             F.softmax(logits * logit_scale, dim=1).numpy()[:, 1]
         )
