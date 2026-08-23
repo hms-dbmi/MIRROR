@@ -1,4 +1,4 @@
-"""MIRROR biomarkers and zero-shot prompts."""
+"""MIRROR biomarkers and text prompts."""
 
 TITLE = "MIRROR: Zero-shot prediction of spatial immune profiles from routine pathology slides using a vision–language model"
 
