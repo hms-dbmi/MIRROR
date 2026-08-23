@@ -1,4 +1,4 @@
-"""MIRROR: Zero-shot prediction of spatial immune profiles from routine pathology slides using a vision–language model."""
+"""MIRROR: A Vision–Language Model for Virtual Spatial Immune Profiling from Routine Histopathology."""
 
 from mirror.config import BIOMARKERS, TEMPLATES, TITLE
 from mirror.model import MIRROR
